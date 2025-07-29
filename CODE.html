@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart To-Do List</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <main class="wrapper">
+    <header>
+      <h1><i class="fas fa-clipboard-check"></i> Smart To-Do List</h1>
+      <p>Plan your tasks, add time, and stay on track ⏰</p>
+    </header>
+
+    <section class="todo-app">
+      <div class="inputs">
+        <input type="text" id="taskInput" placeholder="Enter task..." />
+        <input type="date" id="dateInput" />
+        <input type="time" id="timeInput" />
+        <button onclick="addTask()">Add Task</button>
+      </div>
+      <ul id="taskList"></ul>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Thabi Mkhwebane | To Do List</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </main>
+</body>
+</html>
